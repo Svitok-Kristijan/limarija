@@ -4,8 +4,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 130vh;
   background-color: #dfdfdf;
+  margin-top: -100px;
 }
 
 form {
@@ -69,4 +70,38 @@ button:hover {
   form {
     margin-top: -30px;
   }
+}
+
+.footer {
+  background-color: blue;
+  width: 100%;
+  justify-content: space-around;
+  display: flex;
+  height: 200px;
+  position: absolute;
+  bottom: -200px;
+  opacity: 0;
+  transform: translateX(1000px);
+  transition: opacity 1s ease, transform 0.8s ease;
+  .container-phone {
+    left: 40%;
+    margin-top: -70px;
+    h4 {
+      color: white;
+      font-size: 60px;
+      margin-bottom: -10px;
+    }
+    .phone {
+      color: white;
+    }
+    p {
+      color: white;
+      font-size: 24px;
+    }
+  }
+}
+.footer.in-view {
+  opacity: 1;
+  transform: translateY(0px);
+  background-color: rgb(49, 80, 255);
 }

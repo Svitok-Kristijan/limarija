@@ -6,6 +6,9 @@ import photo2 from "./limarija3.jpg";
 import photo3 from "./limarija4.jpg";
 import photo4 from "./limarija5.jpg";
 import photo5 from "./limarija6.jpg";
+import photo6 from "./lim10.jpg";
+import zljebphoto from "./žljeb.jpg";
+import dimnjakphoto from "./dimnjak.jpg";
 
 const Proizvodi = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -73,38 +76,38 @@ const Proizvodi = () => {
           &#8250;
         </button>
       </div>
-      <p>Poslujemo na poslujemo na području Požeško-slavonske županije.</p>
+      <p>Poslujemo na području Požeško-slavonske županije.</p>
       <div className="ponuda">
         <div className="ponuda-1 animate">
-          <img src={photo1} alt="photo" />
+          <img src={photo6} alt="photo" />
+          <h3>KROVOPOKRIVAČ</h3>
           <p>
-            Vršimo profesionalnu zamjenu oštećenih, istrošenih ili zastarjelih
-            krovnih crijepova. Na raspolaganju imamo različite tipove i
-            materijale krovnih crijepova i limova.
+            Sanacija krova, novo krovište, toplotna izolacija krova,
+            nadstrešnica za auto, krov na jednu vodu, profesionalno
+            krovopokrivanje, krovopokrivački majstor.
           </p>
         </div>
         <div className="ponuda-2 animate">
-          <img src={photo2} alt="photo" />
+          <img src={dimnjakphoto} alt="photo" />
+          <h3>LIMARIJA KROVA</h3>
           <p>
-            Vršimo profesionalnu zamjenu oštećenih, istrošenih ili zastarjelih
-            krovnih crijepova. Na raspolaganju imamo različite tipove i
-            materijale krovnih crijepova i limova.
+            Omotači dimnjaka, odvodne cijevi, koljeno žlijeba, nevidljivi
+            žlijeb, žljebovi, gromobran, profesionalna montaža snijegobrana na
+            krovu, limarsko poduzeće.
           </p>
         </div>
         <div className="ponuda-3 animate">
-          <img src={photo4} alt="photo" />
-          <p>
-            Vršimo profesionalnu zamjenu oštećenih, istrošenih ili zastarjelih
-            krovnih crijepova. Na raspolaganju imamo različite tipove i
-            materijale krovnih crijepova i limova.
-          </p>
+          <img src={photo5} alt="photo" />
+          <h3>LIMENI KROV</h3>
+          <p>Jeftini metalni krovovi, poduzeće za metalne krovove.</p>
         </div>
         <div className="ponuda-4 animate">
-          <img src={photo5} alt="photo" />
+          <img src={zljebphoto} alt="photo" />
+          <h3>ŽLIJEB</h3>
           <p>
-            Vršimo profesionalnu zamjenu oštećenih, istrošenih ili zastarjelih
-            krovnih crijepova. Na raspolaganju imamo različite tipove i
-            materijale krovnih crijepova i limova.
+            žlijebovi, koljena, cijevi iz pocinkanog lima, poluokrugli,
+            pravokutni, aluminijski žlijebovi, bakreni žlijebovi, mjenjanje
+            žlijebova, popravak žlijebova.
           </p>
         </div>
       </div>
